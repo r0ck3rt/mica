@@ -2,8 +2,7 @@
 
 [![Java CI](https://github.com/lets-mica/mica/workflows/Java%20CI/badge.svg)](https://github.com/lets-mica/mica/actions)
 ![JAVA 8](https://img.shields.io/badge/JDK-1.8+-brightgreen.svg)
-[![Mica Maven release](https://img.shields.io/nexus/r/https/oss.sonatype.org/net.dreamlu/mica-bom.svg?style=flat-square)](https://central.sonatype.com/artifact/net.dreamlu/mica-bom/versions)
-[![Mica maven snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/net.dreamlu/mica-bom.svg?style=flat-square)](https://oss.sonatype.org/content/repositories/snapshots/net/dreamlu/)
+[![Mica Maven release](https://img.shields.io/maven-central/v/net.dreamlu/mica-bom.svg?style=flat-square)](https://central.sonatype.com/artifact/net.dreamlu/mica-bom/versions)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1d1253221f524945882ff480351cfa6b)](https://www.codacy.com/gh/lets-mica/mica/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lets-mica/mica&amp;utm_campaign=Badge_Grade)
 [![GitHub](https://img.shields.io/github/license/lets-mica/mica.svg?style=flat-square)](https://github.com/lets-mica/mica/blob/master/LICENSE)
 
@@ -15,15 +14,15 @@ English | [简体中文](README.md)
 
 | Latest version | spring boot version | spring cloud version | Supported  |
 | -------- | ---------------- | ----------------- |--------------------|
-| 3.3.0    | 3.3.x            | 2023              | :white_check_mark: |
-| 3.2.6    | 3.2.x            | 2023              | :white_check_mark: |
-| 3.1.12   | 3.1.x            | 2022              | :x:                |
-| 3.0.8    | 3.0.x            | 2022              | :x:                |
-| 2.7.18.5 | 2.7.x            | 2021              | :white_check_mark: |
-| 2.6.8    | 2.6.x            | 2021              | :x:                |
-| 2.5.8    | 2.5.x            | 2020              | :x:                |
-| 2.4.11   | 2.4.x            | 2020              | :x:                |
-| 2.1.1-GA | 2.2.x ~ 2.3.x    | Hoxton            | :x:                |
+| 3.3.6    | 3.3.x            | 2023              | :white_check_mark: |
+| 3.2.12   | 3.2.x            | 2023              | :white_check_mark: |
+| 3.1.12   | 3.1.x            | 2022              | :x: |
+| 3.0.8    | 3.0.x            | 2022              | :x: |
+| 2.7.18.9 | 2.7.x            | 2021              | :white_check_mark: |
+| 2.6.8    | 2.6.x            | 2021              | :x: |
+| 2.5.8    | 2.5.x            | 2020              | :x: |
+| 2.4.11   | 2.4.x            | 2020              | :x: |
+| 2.1.1-GA | 2.2.x ~ 2.3.x    | Hoxton            | :x: |
 
 ## 🏷️ Version number description
 

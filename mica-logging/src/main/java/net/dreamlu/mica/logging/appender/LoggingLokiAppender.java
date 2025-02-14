@@ -105,18 +105,9 @@ public class LoggingLokiAppender implements ILoggingAppender {
 		labelCfg.setPattern(formatLabelPatternHandle(context, properties));
 		labelCfg.setPairSeparator(properties.getFormatLabelPairSeparator());
 		labelCfg.setKeyValueSeparator(properties.getFormatLabelKeyValueSeparator());
-		labelCfg.setNopex(properties.isFormatLabelNoPex());
 		loki4jEncoder.setLabel(labelCfg);
-		// message config
-		AbstractLoki4jEncoder.MessageCfg messageCfg = new AbstractLoki4jEncoder.MessageCfg();
-		String formatMessagePattern = properties.getFormatMessagePattern();
-		if (StringUtil.isNotBlank(formatMessagePattern)) {
-			messageCfg.setPattern(formatMessagePattern);
-		}
-		loki4jEncoder.setMessage(messageCfg);
 		// 其他配置
 		loki4jEncoder.setStaticLabels(properties.isFormatStaticLabels());
-		loki4jEncoder.setSortByTime(properties.isFormatSortByTime());
 		loki4jEncoder.setContext(context);
 		loki4jEncoder.start();
 		return loki4jEncoder;
